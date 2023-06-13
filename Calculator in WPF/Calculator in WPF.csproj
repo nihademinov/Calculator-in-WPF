@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <RootNamespace>Calculator_in_WPF</RootNamespace>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="delete-icon.png" />
+    <None Remove="divide-icon.png" />
+    <None Remove="equal-icon.png" />
+    <None Remove="history-icon.png" />
+    <None Remove="multipy-icon.png" />
+    <None Remove="options-icon.png" />
+    <None Remove="percent-icon.png" />
+    <None Remove="percentt_icon.png" />
+    <None Remove="percent_icon1.png" />
+    <None Remove="percent_iconn.png" />
+    <None Remove="plus-icon.png" />
+    <None Remove="subtrac-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="delete-icon.png" />
+    <Resource Include="divide-icon.png" />
+    <Resource Include="equal-icon.png" />
+    <Resource Include="history-icon.png" />
+    <Resource Include="multipy-icon.png" />
+    <Resource Include="options-icon.png" />
+    <Resource Include="percent-icon.png" />
+    <Resource Include="plus-icon.png" />
+    <Resource Include="subtrac-icon.png" />
+  </ItemGroup>
+
+</Project>
